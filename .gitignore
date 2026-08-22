@@ -1,0 +1,21 @@
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Streamlit secrets & local state
+.streamlit/secrets.toml
+
+# Testing & Coverage caches
+.pytest_cache/
+.coverage
+
+# OS generated files
+.DS_Store
+Thumbs.db
