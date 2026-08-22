@@ -1,8 +1,12 @@
 # SupportAI — Tier-1 Customer Support AI Employee & Triage
 
-A single-file Streamlit application that classifies incoming support messages,
-answers them with a grounded, cited response when confident, and automatically
-escalates to a human agent when it isn't — with full transparency into *why*.
+A single-file Streamlit application that classifies incoming support messages, answers them with a grounded, cited response when confident, and automatically normalizes and escalates to a human agent when it isn't — with full transparency into *why*.
+
+---
+
+## 🌐 Live Demo & Repository
+* 🔗 **Live Web Application:** https://veeramallesh-support-ai.streamlit.app
+* 📦 **GitHub Repository:** https://github.com/Veeramallesh94/supervity-customer-support-ai
 
 ---
 
@@ -14,7 +18,7 @@ pip install -r requirements.txt
 
 # 2. (Optional) Enable the LLM fallback for low-confidence holding replies —
 #    the app works perfectly without this step.
-export ANTHROPIC_API_KEY="sk-ant-..."
+export ANTHROPIC_API_KEY="sk-ant-..."=
 
 # 3. Run
 streamlit run app.py
